@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">First Aid Quiz</string>
+    <string name="intro">First aid knowledge is very important for both you and your community,
+        It enables you to assist persons who are in emergency situations until help arrives.
+        \n \n This is a short and simple quiz to test your knowledge about first aid,
+        it consists of five questions which are covering different aspects.
+        \n \n Each correct answer gives you one point, Good luck..</string>
+
+    <string name="intro1">This is a short and simple quiz to test your knowledge about First Aid.\nGood luck…</string>
+
+    <!-- QUESTION 1 AND IT's ANSWERS -->
+    <string name="question_1_label">QUESTION 1</string>
+    <string name="question1">If someone is bleeding from a wound, what can you do to help?</string>
+    <string name="option1_1">Let the blood drain out.</string>
+    <string name="option1_2">Put pressure on the injury.</string>
+    <string name="option1_3">Tie a tourniquet above the injury</string>
+
+    <!-- QUESTION 2 AND IT's ANSWERS -->
+    <string name="question_2_label">QUESTION 2</string>
+    <string name="question2">How can you help someone who is having a seizure?</string>
+    <string name="option2_1">Put something in their mouth.</string>
+    <string name="option2_2">Restrain them.</string>
+    <string name="option2_3">Keep them safe from injury.</string>
+    <string name="option2_4">Roll the person on his/her side as the seizure calms down</string>
+
+    <!-- QUESTION 3 AND IT's ANSWERS -->
+    <string name="question_3_label">QUESTION 3</string>
+    <string name="question3">What is the most important thing to do to help someone who has a burn?</string>
+    <string name="option3_1">Wrap the burn in cling film or a clean plastic bag.</string>
+    <string name="option3_2">Wipe the burn with antiseptic wipes.</string>
+    <string name="option3_3">Cool the burn under cold running water.</string>
+
+    <!-- QUESTION 4 AND IT's ANSWERS -->
+    <string name="question_4_label">QUESTION 4</string>
+    <string name="question4">If someone is having a diabetic emergency,
+        you should give them a low-calorie drink, like diet cola.</string>
+    <string name="option4_1">True</string>
+    <string name="option4_2">False</string>
+
+    <!-- QUESTION 5 AND IT's ANSWERS -->
+    <string name="question_5_label">QUESTION 5</string>
+    <string name="question5">What should you do if you think someone has broken a leg?</string>
+    <string name="option5_1">Ask them to lean on their leg to check if it is painful.</string>
+    <string name="option5_2">Help them support their leg using a cushion or some clothing.</string>
+    <string name="option5_3">Leave it for a while to see if the pain gets better.</string>
+
+    <!-- QUESTION 6 AND IT's ANSWERS -->
+    <string name="question_6_label">QUESTION 6</string>
+    <string name="question6">How long should you run a burn under cold water for? \n
+                                Write the minimum time in minutes</string>
+    <string name="questsion6_field_hint">Write the minimum time in minutes</string>
+    <string name="questsion6_correct_answer">the correct answer is 10 minutes</string>
+
+    <!-- QUESTION 7 AND IT's ANSWERS -->
+    <string name="question_7_label">QUESTION 7</string>
+    <string name="question7">Which item below would be the best thing to apply to a head injury to reduce swelling?</string>
+    <string name="option7_1">A bag of frozen vegetables wrapped in cloth.</string>
+    <string name="option7_2">A wet cloth.</string>
+    <string name="option7_3">A can of cold soft drink.</string>
+
+    <!-- SUBMIT BUTTON AND SCORE TEXT VIEW -->
+    <string name="submit">Submit</string>
+    <string name="score">Score</string>
+</resources>
+

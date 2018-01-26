@@ -1,0 +1,216 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- introduction text view style -->
+    <style name="intro_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/large_space</item>
+        <item name="android:layout_marginRight">@dimen/large_space</item>
+        <item name="android:layout_marginBottom">@dimen/small_space</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/small_space</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:background">@drawable/trans_white_bg</item>
+    </style>
+
+    <!-- each question number text view style -->
+    <style name="each_question_label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:elevation">@dimen/x_small_space</item>
+        <item name="android:shadowColor">@color/text_black</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:shadowRadius">4</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- each question card view style -->
+    <style name="each_card_view" parent="CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/small_space</item>
+        <item name="android:layout_marginLeft">@dimen/x_large_space</item>
+        <item name="android:layout_marginRight">@dimen/x_large_space</item>
+        <item name="android:layout_marginTop">@dimen/small_space</item>
+        <item name="cardBackgroundColor">@color/text_white</item>
+        <item name="cardCornerRadius">@dimen/x_small_space</item>
+        <item name="cardElevation">@dimen/small_space</item>
+    </style>
+
+    <!-- each question parent linear layout style -->
+    <style name="each_question_parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- each question image style -->
+    <style name="each_question_image">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <!-- each question text view style -->
+    <style name="each_question_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/large_space</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- radio button groups style -->
+    <style name="each_radio_button_group">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/large_space</item>
+        <item name="android:layout_marginRight">@dimen/large_space</item>
+        <item name="android:layout_marginBottom">@dimen/medium_space</item>
+    </style>
+
+    <!-- each radio button style -->
+    <style name="each_radio_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/xx_small_space</item>
+        <item name="android:layout_marginBottom">@dimen/xx_small_space</item>
+        <item name="android:paddingLeft">@dimen/xx_small_space</item>
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+
+    <!-- parent linear layout of true or false question -->
+    <style name="true_false_parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/large_space</item>
+        <item name="android:layout_marginLeft">@dimen/large_space</item>
+        <item name="android:layout_marginRight">@dimen/large_space</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- true or false buttons style -->
+    <style name="true_false_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/large_space</item>
+        <item name="android:layout_marginRight">@dimen/large_space</item>
+        <item name="android:background">@drawable/trans_black_bg</item>
+        <item name="android:paddingLeft">@dimen/medium_space</item>
+        <item name="android:paddingRight">@dimen/medium_space</item>
+    </style>
+
+    <!-- question six edit text style -->
+    <style name="questtion6_text_field">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/small_space</item>
+        <item name="android:layout_marginLeft">@dimen/xx_large_space</item>
+        <item name="android:layout_marginRight">@dimen/xx_large_space</item>
+        <item name="android:inputType">number</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- question six correct answer text field style -->
+    <style name="question_six_correct_answer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/small_space</item>
+        <item name="android:layout_marginLeft">@dimen/xx_large_space</item>
+        <item name="android:layout_marginRight">@dimen/xx_large_space</item>
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- submit button style -->
+    <style name="submit_button">
+        <item name="android:layout_width">@dimen/zero_space</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:elevation">@dimen/large_space</item>
+        <item name="android:shadowColor">@color/text_black</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:shadowRadius">8</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/submit_btn_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">@dimen/medium_space</item>
+    </style>
+
+    <!-- score label text view style -->
+    <style name="score_label">
+        <item name="android:layout_width">@dimen/zero_space</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">@dimen/xx_small_space</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">@color/text_black</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:shadowRadius">4</item>
+        <item name="android:background">#4fff</item>
+    </style>
+
+    <!-- score text view style -->
+    <style name="score_text_view">
+        <item name="android:layout_width">@dimen/zero_space</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/xx_small_space</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">@color/text_black</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:shadowRadius">4</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#4fff</item>
+    </style>
+
+    <!-- scroll up style -->
+    <style name="scroll_up_button">
+        <item name="android:layout_width">@dimen/zero_space</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/up_arrow</item>
+        <item name="android:layout_weight">.6</item>
+        <item name="android:elevation">@dimen/small_space</item>
+        <item name="android:layout_marginRight">@dimen/medium_space</item>
+    </style>
+
+    <!-- try again button style -->
+    <style name="try_again_button">
+        <item name="android:layout_width">@dimen/zero_space</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/try_again_arrow</item>
+        <item name="android:layout_weight">.6</item>
+        <item name="android:elevation">@dimen/small_space</item>
+    </style>
+
+</resources>

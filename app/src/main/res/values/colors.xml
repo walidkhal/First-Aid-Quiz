@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#01c045</color>
+    <color name="colorPrimaryDark">#689F38</color>
+    <color name="colorAccent">#01c045</color>
+    <color name="main_bg">#8BC34A</color>
+    <color name="card_view_bg">#fff</color>
+    <color name="text_white">#fff</color>
+    <color name="text_black">#000</color>
+    <color name="logo_green">#009134</color>
+    <color name="submit_button_bg">#009134</color>
+    <color name="trans_black" >#5000</color>
+    <color name="trans_white" >#8fff</color>
+    <color name="trans_red" >#5f00</color>
+    <color name="trans_green" >#50f0</color>
+</resources>

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    tools:context="com.example.android.testcardview.MainActivity"
+    android:id="@+id/hi">
+
+    <!-- parent vertical linear layout -->
+    <LinearLayout style="@style/each_question_parent">
+
+        <!-- intro app image view -->
+        <ImageView
+            style="@style/each_question_image"
+            android:src="@drawable/main_logo" />
+
+        <!-- intro app text view -->
+        <TextView
+            style="@style/intro_text"
+            android:text="@string/intro1" />
+
+        <!-- question 1 -->
+        <TextView
+            style="@style/each_question_label"
+            android:text="@string/question_1_label" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view1"
+            style="@style/each_card_view">
+
+            <LinearLayout style="@style/each_question_parent">
+
+                <ImageView
+                    style="@style/each_question_image"
+                    android:src="@drawable/bleeding" />
+
+                <TextView
+                    style="@style/each_question_text"
+                    android:text="@string/question1" />
+
+                <RadioGroup
+                    android:id="@+id/question1_options_group"
+                    style="@style/each_radio_button_group">
+
+                    <RadioButton
+                        android:id="@+id/question_one_option_one"
+                        style="@style/each_radio_button"
+                        android:text="@string/option1_1" />
+
+                    <RadioButton
+                        android:id="@+id/question_one_option_two"
+                        style="@style/each_radio_button"
+                        android:text="@string/option1_2" />
+
+                    <RadioButton
+                        android:id="@+id/question_one_option_three"
+                        style="@style/each_radio_button"
+                        android:text="@string/option1_3" />
+                </RadioGroup>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!-- question 2 -->
+        <TextView
+            style="@style/each_question_label"
+            android:text="@string/question_2_label" />
+
+        <android.support.v7.widget.CardView style="@style/each_card_view">
+
+            <LinearLayout style="@style/each_question_parent">
+
+                <ImageView
+                    style="@style/each_question_image"
+                    android:src="@drawable/seizure" />
+
+                <TextView
+                    style="@style/each_question_text"
+                    android:text="@string/question2" />
+
+                <LinearLayout
+                    style="@style/each_radio_button_group"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/question_two_option_one"
+                        style="@style/each_radio_button"
+                        android:text="@string/option2_1" />
+
+                    <CheckBox
+                        android:id="@+id/question_two_option_two"
+                        style="@style/each_radio_button"
+                        android:text="@string/option2_2" />
+
+                    <CheckBox
+                        android:id="@+id/question_two_option_three"
+                        style="@style/each_radio_button"
+                        android:text="@string/option2_3" />
+
+                    <CheckBox
+                        android:id="@+id/question_two_option_four"
+                        style="@style/each_radio_button"
+                        android:text="@string/option2_4" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!-- question 3 -->
+        <TextView
+            style="@style/each_question_label"
+            android:text="@string/question_3_label" />
+
+        <android.support.v7.widget.CardView style="@style/each_card_view">
+
+            <LinearLayout style="@style/each_question_parent">
+
+                <ImageView
+                    style="@style/each_question_image"
+                    android:src="@drawable/burn" />
+
+                <TextView
+                    style="@style/each_question_text"
+                    android:text="@string/question3" />
+
+                <RadioGroup
+                    android:id="@+id/question_three_options_group"
+                    style="@style/each_radio_button_group">
+
+                    <RadioButton
+                        android:id="@+id/question_three_option_one"
+                        style="@style/each_radio_button"
+                        android:text="@string/option3_1" />
+
+                    <RadioButton
+                        android:id="@+id/question_three_option_two"
+                        style="@style/each_radio_button"
+                        android:text="@string/option3_2" />
+
+                    <RadioButton
+                        android:id="@+id/question_three_option_three"
+                        style="@style/each_radio_button"
+                        android:text="@string/option3_3" />
+                </RadioGroup>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!-- question 4 -->
+        <TextView
+            style="@style/each_question_label"
+            android:text="@string/question_4_label" />
+
+        <android.support.v7.widget.CardView style="@style/each_card_view">
+
+            <LinearLayout style="@style/each_question_parent">
+
+                <ImageView
+                    style="@style/each_question_image"
+                    android:src="@drawable/diabetic" />
+
+                <TextView
+                    style="@style/each_question_text"
+                    android:text="@string/question4" />
+
+                <LinearLayout style="@style/true_false_parent">
+
+                    <Button
+                        android:id="@+id/question_four_option_true"
+                        style="@style/true_false_button"
+                        android:onClick="checkTrueOrFalse"
+                        android:text="@string/option4_1" />
+
+                    <Button
+                        android:id="@+id/question_four_option_false"
+                        style="@style/true_false_button"
+                        android:onClick="checkTrueOrFalse"
+                        android:text="@string/option4_2" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!-- question 5 -->
+        <TextView
+            style="@style/each_question_label"
+            android:text="@string/question_5_label" />
+
+        <android.support.v7.widget.CardView style="@style/each_card_view">
+
+            <LinearLayout style="@style/each_question_parent">
+
+                <ImageView
+                    style="@style/each_question_image"
+                    android:src="@drawable/broken" />
+
+                <TextView
+                    style="@style/each_question_text"
+                    android:text="@string/question5" />
+
+                <RadioGroup
+                    android:id="@+id/question_five_options_group"
+                    style="@style/each_radio_button_group">
+
+                    <RadioButton
+                        android:id="@+id/question_five_option_one"
+                        style="@style/each_radio_button"
+                        android:text="@string/option5_1" />
+
+                    <RadioButton
+                        android:id="@+id/question_five_option_two"
+                        style="@style/each_radio_button"
+                        android:text="@string/option5_2" />
+
+                    <RadioButton
+                        android:id="@+id/question_five_option_three"
+                        style="@style/each_radio_button"
+                        android:text="@string/option5_3" />
+                </RadioGroup>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!-- question 6 -->
+        <TextView
+            style="@style/each_question_label"
+            android:text="@string/question_6_label" />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view2"
+            style="@style/each_card_view">
+
+            <LinearLayout style="@style/each_question_parent">
+
+                <ImageView
+                    style="@style/each_question_image"
+                    android:src="@drawable/burn1" />
+
+                <TextView
+                    style="@style/each_question_text"
+                    android:text="@string/question6" />
+
+                <EditText
+                    android:id="@+id/question_six_text_field"
+                    style="@style/questtion6_text_field"
+                    android:hint="@string/questsion6_field_hint"
+                    android:imeOptions="actionDone"/>
+
+                <TextView
+                    android:id="@+id/question_six_correct_answer"
+                    style="@style/question_six_correct_answer" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!-- question 7 -->
+        <TextView
+            style="@style/each_question_label"
+            android:text="@string/question_7_label" />
+
+        <android.support.v7.widget.CardView style="@style/each_card_view">
+
+            <LinearLayout style="@style/each_question_parent">
+
+                <ImageView
+                    style="@style/each_question_image"
+                    android:src="@drawable/head_injury" />
+
+                <TextView
+                    style="@style/each_question_text"
+                    android:text="@string/question7" />
+
+                <RadioGroup
+                    android:id="@+id/question_seven_options_group"
+                    style="@style/each_radio_button_group">
+
+                    <RadioButton
+                        android:id="@+id/question_seven_option_one"
+                        style="@style/each_radio_button"
+                        android:text="@string/option7_1" />
+
+                    <RadioButton
+                        android:id="@+id/question_seven_option_two"
+                        style="@style/each_radio_button"
+                        android:text="@string/option7_2" />
+
+                    <RadioButton
+                        android:id="@+id/question_seven_option_three"
+                        style="@style/each_radio_button"
+                        android:text="@string/option7_3" />
+
+                </RadioGroup>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <!-- submit answers and try again buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/large_space">
+
+            <Button
+                android:id="@+id/submit_btn"
+                style="@style/submit_button"
+                android:onClick="checkAnswers"
+                android:text="@string/submit" />
+
+            <TextView
+                android:id="@+id/score_label"
+                android:text="@string/score"
+                style="@style/score_label" />
+
+            <TextView
+                android:id="@+id/score_text_view"
+                style="@style/score_text_view" />
+
+            <Button
+                android:id="@+id/scroll_up_btn"
+                style="@style/scroll_up_button"
+                android:onClick="scrollUp" />
+
+            <Button
+                android:id="@+id/try_again_btn"
+                style="@style/try_again_button"
+                android:onClick="tryAgain" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
